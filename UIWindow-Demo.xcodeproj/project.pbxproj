@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD7DA42C24155F2200ACA1BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DA42B24155F2200ACA1BA /* AppDelegate.swift */; };
-		BD7DA42E24155F2200ACA1BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DA42D24155F2200ACA1BA /* SceneDelegate.swift */; };
 		BD7DA43024155F2200ACA1BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DA42F24155F2200ACA1BA /* ViewController.swift */; };
-		BD7DA43324155F2200ACA1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7DA43124155F2200ACA1BA /* Main.storyboard */; };
 		BD7DA43524155F2500ACA1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7DA43424155F2500ACA1BA /* Assets.xcassets */; };
 		BD7DA43824155F2500ACA1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7DA43624155F2500ACA1BA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		BD7DA42824155F2200ACA1BA /* UIWindow-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWindow-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7DA42B24155F2200ACA1BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD7DA42D24155F2200ACA1BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BD7DA42F24155F2200ACA1BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD7DA43224155F2200ACA1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD7DA43424155F2500ACA1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7DA43724155F2500ACA1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD7DA43924155F2500ACA1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BD7DA42B24155F2200ACA1BA /* AppDelegate.swift */,
-				BD7DA42D24155F2200ACA1BA /* SceneDelegate.swift */,
 				BD7DA42F24155F2200ACA1BA /* ViewController.swift */,
-				BD7DA43124155F2200ACA1BA /* Main.storyboard */,
 				BD7DA43424155F2500ACA1BA /* Assets.xcassets */,
 				BD7DA43624155F2500ACA1BA /* LaunchScreen.storyboard */,
 				BD7DA43924155F2500ACA1BA /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				BD7DA43824155F2500ACA1BA /* LaunchScreen.storyboard in Resources */,
 				BD7DA43524155F2500ACA1BA /* Assets.xcassets in Resources */,
-				BD7DA43324155F2200ACA1BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				BD7DA43024155F2200ACA1BA /* ViewController.swift in Sources */,
 				BD7DA42C24155F2200ACA1BA /* AppDelegate.swift in Sources */,
-				BD7DA42E24155F2200ACA1BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD7DA43124155F2200ACA1BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD7DA43224155F2200ACA1BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD7DA43624155F2500ACA1BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +278,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pravinkamble.UIWindow-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pravinkamble.UIWindow-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
